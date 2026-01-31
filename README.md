@@ -34,6 +34,7 @@ cp .env.example .env
 | `READER_POOL_SIZE` | `3` | Browser pool size |
 | `RATE_LIMIT_RPM` | `60` | Requests per minute per API key |
 | `CACHE_TTL_SECONDS` | `86400` | Cache expiry (default 24 hours) |
+| `PROXY_DATACENTER` | | Datacenter proxy URL (e.g. `http://user:pass@host:port`) |
 | `NODE_ENV` | `development` | Environment |
 
 ### Create an API Key
